@@ -1,4 +1,4 @@
-# 🎬 Movie Rating Analysis System — ml-32m
+#  Movie Rating Analysis System — ml-32m
 
 A scalable Big Data analytics platform built with **Apache Spark (PySpark)** to analyse
 32 million movie ratings from the [MovieLens 32M](https://grouplens.org/datasets/movielens/latest/)
@@ -6,14 +6,14 @@ dataset, with an interactive **Streamlit dashboard** for the live demo.
 
 ---
 
-## ⚠️ Dataset Notes (ml-32m vs ml-1m)
+##  Dataset Notes (ml-32m vs ml-1m)
 
 | Feature              | ml-1M           | ml-32M (yours)          |
 |----------------------|-----------------|-------------------------|
 | File format          | `::` separated `.dat` | `,` separated `.csv` |
-| Has header row       | ❌ No           | ✅ Yes                  |
-| User demographics    | ✅ `users.dat`  | ❌ **Not included**     |
-| Tags file            | ❌ Not included | ✅ `tags.csv`           |
+| Has header row       |  No           |  Yes                  |
+| User demographics    |  `users.dat`  |  **Not included**     |
+| Tags file            |  Not included |  `tags.csv`           |
 | Rating count         | ~1 million      | ~32 million             |
 | Encoding             | ISO-8859-1      | UTF-8                   |
 
@@ -70,13 +70,13 @@ Split the file at each `# CELL N` comment into separate notebook cells.
 - **Tag Analytics** — top tags by frequency + coverage; most tag-rich films (exclusive to ml-32m)
 - **Genre trends over time** — per-genre rating volume per year, 1995–2023
 - **User segmentation** — Generous / Moderate / Harsh raters by avg rating given
-- **💎 Hidden Gems** — high-rated films (avg ≥ 4.0) with limited exposure (100–500 ratings)
-- **⏰ Hourly activity** — when users rate most during the day
-- **📆 Quality by decade** — do older films consistently rate higher?
+- ** Hidden Gems** — high-rated films (avg ≥ 4.0) with limited exposure (100–500 ratings)
+- ** Hourly activity** — when users rate most during the day
+- ** Quality by decade** — do older films consistently rate higher?
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Tool |
 |-----------|------|
@@ -90,7 +90,7 @@ Split the file at each `# CELL N` comment into separate notebook cells.
 
 ---
 
-## ⚡ Spark Optimisations (32M-specific)
+##  Spark Optimisations (32M-specific)
 
 | Optimisation | Setting | Why |
 |---|---|---|
@@ -107,7 +107,7 @@ Split the file at each `# CELL N` comment into separate notebook cells.
 
 ---
 
-## 📁 Output Structure
+##  Output Structure
 
 ```
 /content/movielens/
@@ -133,7 +133,7 @@ Split the file at each `# CELL N` comment into separate notebook cells.
 
 ---
 
-## 💡 My Additions (Beyond the Brief)
+##  My Additions 
 
 | Feature | Rationale |
 |---------|-----------|
